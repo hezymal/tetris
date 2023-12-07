@@ -1,0 +1,29 @@
+body {
+    background-color: #111;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Orbitron", sans-serif;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#canvas {
+    background-color: #222;
+    border: 1px solid #333;
+}
+
+#board {
+    width: 200px;
+    margin-left: 20px;
+}
+
+#board .field {
+    display: flex;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "tetris",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build",
+        "watch": "parcel serve"
+    },
+    "devDependencies": {
+        "parcel": "^2.10.3"
+    }
+}
